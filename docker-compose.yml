@@ -1,0 +1,19 @@
+version: "3"
+services:
+  server:
+    build: ./todo-server
+    networks:
+      - server-network
+    ports:
+      - 3000:3000
+
+  client:
+    build: ./todo-client
+    networks:
+      - client-network
+    ports:
+      - 8080:8080
+
+networks:
+  server-network:
+  client-network:

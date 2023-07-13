@@ -1,0 +1,22 @@
+{
+  "compilerOptions" : {
+    "outDir" : "./dist/",
+    "noImplicitAny" : true,
+    "target" : "esnext",
+    "module" : "esnext",
+    "moduleResolution" : "bundler",
+    "sourceMap" : true,
+    "jsx" : "react",
+    "rootDir" : ".",
+    "lib" : [
+      "webworker",
+      "dom"
+    ],
+    "allowJs" : true,
+    "allowSyntheticDefaultImports" : true
+  },
+  "exclude" : [
+    "./eslint-plugin-strict-enum",
+    "node_modules"
+  ]
+}

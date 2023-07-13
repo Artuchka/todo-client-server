@@ -1,0 +1,8 @@
+export enum TaskListSort {
+  DEADLINE = "DEADLINE",
+  PRIORITY = "PRIORITY",
+  PRIORITY_AND_DEADLINE = "PRIORITY_AND_DEADLINE",
+}
+
+
+

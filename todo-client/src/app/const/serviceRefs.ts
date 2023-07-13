@@ -1,0 +1,5 @@
+export const ErrorBoundaryLoggerRef = Symbol("ErrorBoundaryLoggerRef")
+export const NavigationServiceRef = Symbol("NavigationServiceRef")
+export const WordCloudServiceRef = Symbol("WordCloudService")
+export const TaskAPIServiceRef = Symbol("TaskAPIService")
+export const TaskServiceRef = Symbol("TaskService")
